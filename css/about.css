@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f9;
+    color: #333;
+}
+url /image/istockphoto-171306436-612x612.jpg
+center/cover
+
+
+header {
+    background-color: #123c69;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+nav {
+    background-color: #0b2748;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: rgb(232, 231, 226);
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #db9d0e;
+}
+
+main {
+    padding: 50px 10%;
+}
+
+.about {
+    background-color: rgb(191, 218, 18);
+    padding: 35px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.about h2,
+.mission h2,
+.values h2 {
+    color: #123c69;
+    margin-bottom: 20px;
+}
+
+.about p {
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.mission {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.mission div {
+    background-color: rgb(224, 221, 28);
+    padding: 30px;
+    flex: 1;
+    border-radius: 8px;
+}
+
+.mission p {
+    line-height: 1.7;
+}
+
+.values {
+    background-color: rgb(218, 221, 43);
+    margin-top: 30px;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.values ul {
+    line-height: 2;
+    padding-left: 25px;
+}
+
+footer {
+    background-color: #0b2748;
+    color: rgb(199, 175, 40);
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
